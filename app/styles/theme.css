@@ -1,0 +1,67 @@
+
+.app {
+  background: linear-gradient(180deg, #0a0f1f, #02040a);
+  border-radius: var(--radius-lg);
+  box-shadow:
+    0 0 30px rgba(0, 247, 255, 0.15),
+    inset 0 0 30px rgba(0, 247, 255, 0.05);
+}
+
+
+.header {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: var(--color-primary);
+  text-shadow: 0 0 10px var(--color-primary);
+}
+
+
+.core {
+  background: radial-gradient(circle, var(--color-primary) 0%, transparent 60%);
+  box-shadow:
+    0 0 25px var(--color-primary),
+    0 0 60px rgba(0, 247, 255, 0.4);
+}
+
+
+.terminal {
+  background: linear-gradient(180deg, #050914, #02040a);
+  border: 1px solid var(--color-dim);
+}
+
+
+.line.user {
+  color: var(--color-secondary);
+}
+
+.line.ai {
+  color: var(--color-primary);
+  text-shadow: 0 0 4px var(--color-primary);
+}
+
+
+.input-box input {
+  background: #020614;
+  color: var(--color-primary);
+  border: 1px solid var(--color-dim);
+}
+
+.input-box input::placeholder {
+  color: var(--color-dim);
+}
+
+
+.input-box button {
+  box-shadow: 0 0 12px var(--color-primary);
+}
+
+
+.app::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: inset 0 0 40px rgba(0, 247, 255, 0.08);
+}
