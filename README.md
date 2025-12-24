@@ -46,6 +46,7 @@ More features are planned and under development.
 
 No OpenAI or paid APIs are used.
 
+Install ollma from here -> https://ollama.com
 ---
 
 ## 📦 Requirements (Before Running)
